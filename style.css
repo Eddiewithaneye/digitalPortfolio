@@ -1,0 +1,19 @@
+/*
+In order to color text, I need three things:
+Selector{
+property:value; 
+Selector is the where, property is the category of change(color) followed by a colon::
+value is the selection within the property followed by a semi colon ;
+}
+*/
+
+/* Make the h1 section purple*/
+body{
+    background-color: cyan;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+h1{
+    color: orange;
+    background-color: orangered;
+    text-align: center;
+}
