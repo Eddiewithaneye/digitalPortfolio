@@ -9,15 +9,38 @@ value is the selection within the property followed by a semi colon ;
 
 /* Make the h1 section purple*/
 body{
-    background-color: cyan;
+    background-color: rgb(194, 253, 199); /* rgb(194,253,199) Pleasing to the eye type of green. */
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 h1{
-    color: orange;
-    background-color: orangered;
+    color: rgb(1, 71, 13); /* rgb(1,71,13) Rich forest green*/
+    background-color: rgb(123, 190, 130);
     text-align: center;
 }
 
 h2{
+    background-color: rgb(123, 190, 130);
     text-align: center;
 }
+
+h3{
+    background-color: rgb(123, 190, 130);
+}
+.project-container h3{ /*h3 is a descendant of the class */
+    text-align: center;    
+}
+
+.project-container{
+    display: flex; /* Puts my children in project-container(parent) in a row for me*/
+    gap: 40px;
+}
+
+.educational-milestones h3{
+   text-align: center;
+}
+
+.educational-milestones{
+    display: flex;
+    gap: 40px;
+}
+
